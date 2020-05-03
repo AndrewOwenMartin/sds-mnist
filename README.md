@@ -8,11 +8,11 @@ run ./get_datasets.sh
 then run either
 
 ```
-python image_similarity.py
+python image_similarity.py example
 ```
 
 or
 
 ```
-python image_similarity.py
+python image_similarity.py experiment
 ```
