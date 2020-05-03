@@ -1,11 +1,11 @@
 # Copyright 2020 Andrew Owen Martin
-# 
+#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
-# 
+#
 #     http://www.apache.org/licenses/LICENSE-2.0
-# 
+#
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -201,7 +201,7 @@ def experiment(rng, agent_count=200, max_iterations=200):
     start = datetime.datetime.now()
 
     test_pictures, hypotheses, microtests = get_hypotheses_and_microtests(
-        max_items=100, rng=rng
+        max_items=None, rng=rng
     )
 
     correct = 0
@@ -243,7 +243,7 @@ def experiment(rng, agent_count=200, max_iterations=200):
         results.append(result)
 
         log.info(
-                "Num %5s, Input image %5s, Expected label %s, Guessed image %5s, Guessed num %s. Correct: %5s, Accuracy %3.0f%%",
+            "Num %5s, Input image %5s, Expected label %s, Guessed image %5s, Guessed num %s. Correct: %5s, Accuracy %3.0f%%",
             num,
             answer.index,
             correct_label,
