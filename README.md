@@ -1,10 +1,10 @@
 # Demo
 
-See a demo at [Asciinema](https://asciinema.org/a/326628, "Asciinema").
+See a demo at [Asciinema](https://asciinema.org/a/326628 "Asciinema").
 
 # Dependencies
 
-Expects wget and gunzip to be on your path, and expects numpy and sds to be on your python path.
+Expects wget and gunzip to be on your path, and expects numpy and sds to be in your python environment.
 
 ```
 pip install numpy sds
