@@ -2,7 +2,7 @@
 
 See a demo at [Asciinema](https://asciinema.org/a/326628 "Asciinema").
 
-# Introductions
+# Introduction
 
 In the demo you will see a user clone the repository, set up the projects, gather the MNIST database of handwritten digits, and run three examples. For each example an image is selected at random from the test dataset, the image is rendered to the terminal and the algorithm returns the integer it thinks is represented by the image.
 
