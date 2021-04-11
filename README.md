@@ -1,6 +1,9 @@
 # Demo
 
-See a demo at [Asciinema](https://asciinema.org/a/326628 "Asciinema").
+This demo bought to you by [Asciinema](https://asciinema.org/a/326628 "visit Asciinema").
+
+[![Asciinema](https://asciinema.org/a/326628.svg)](https://asciinema.org/a/326628).
+
 
 # Introduction
 
